@@ -1,0 +1,72 @@
+.contact-page {
+  width: 100%;
+  padding-bottom: 4vw;
+  text-align: left;
+}
+.formulario-contactos {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.form {
+  width: 50%;
+  height: auto;
+  padding: 2vw;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+form .contenido {
+  display: flex;
+  position: relative;
+  width: calc(90%);
+  height: auto;
+  margin: 10px auto;
+  padding: 30px 10px 10px;
+}
+
+form .contenido input {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px 10px;
+  font-size: 18px;
+}
+
+form .contenido label {
+  display: block;
+  position: absolute;
+  width: auto;
+  top: 10px;
+  left: 10px;
+  padding: 5px 5px;
+}
+.btn {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: rgb(4, 150, 47);
+  margin-left: 40px;
+  padding: 2% 5%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.whatsapp-contactos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.whatsapp-contactos a .what {
+  background-color: green;
+  border-radius: 15px;
+  color: rgb(247, 242, 242);
+  vertical-align: middle;
+}
+.whatsapp-contactos a .cont {
+  background-color: blue;
+  border-radius: 15px;
+  color: rgb(247, 242, 242);
+  vertical-align: middle;
+}

@@ -1,0 +1,21 @@
+.about-page {
+  background-color: rgba(116, 136, 126, 0.6);
+}
+.about-body {
+  background-color: none;
+  text-align: center;
+}
+.propietaria1 {
+  width: 70%;
+  height: 20vw;
+  margin: auto;
+  margin-top: 3vw;
+  margin-bottom: 15vw;
+}
+.photo {
+  width: 30%;
+  height: 20vw;
+  margin-bottom: 3vw;
+  border-radius: 12px;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
