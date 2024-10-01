@@ -263,14 +263,9 @@ body {
     width: 50%;
     margin-top: 8%;
     margin-left: 5%;
-    border: solid green;
   }
   .menu-open,.menu-close{
-    display: block;
-    border: 0;
-    font-size: 1.3rem;
-    background-color: transparent;
-    cursor: pointer;
+    display: block; 
   }
   .menu{ 
     opacity: 0;
@@ -297,14 +292,49 @@ body {
   .menu-list li a{
     color: #fff;
   }
-  .menu-close{
+  .menu-open {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    justify-content: space-between;
+    top: 80px;
+    right: 40px;
     border: none;
-    background-color: #040404;
-    font-size: calc(12px + 2vmin);
-    font-weight: 550;
-    padding: 1rem;
-    text-align: end;
-    color: #fff;
+    background-color: transparent;
+  }
+  .menu-open span {
+    display: block;
+    width: 100%;
+    height:.7rem;
+    background-color: rgb(53, 52, 52);
+    border-radius: 16px;
+  }
+  .menu-close{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+  }
+  .menu-close span {
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: .7rem;
+    background-color: white;
+    border-radius: 16px;
+  }
+  .line1 {
+    transform: rotate(45deg);
+  }
+  .line2 {
+    transform: rotate(135deg); 
   }
   .footer p {
     color: rgb(53, 52, 52);
