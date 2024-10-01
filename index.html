@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Antojitos</title>
+  <title>Antojitos</title>  
   <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
@@ -12,10 +12,17 @@
             <a href="/index.html">
                 <img class="logo" src="images/Logo Antojitos Transparente.png" alt="logo">    
             </a>
-            <button class="menu-open">Abrir</button>
-            <nav class="menu">
+            <button class="menu-open" id="menu-open">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="menu" id="menu">
                 <ul class="menu-list">
-                    <button class="menu-close">Cerrar</button>
+                    <button class="menu-close" id="menu-close">
+                        <span class="line1"></span>
+                        <span class="line2"></span>
+                    </button>
                     <li>
                         <a href="./index.html">Home</a>                        
                     </li>
@@ -114,5 +121,6 @@
             </p>
         </div> 
     </footer>
-</body>
+    <script src="./js/menu.js"></script>
+    </body>
 </html>
