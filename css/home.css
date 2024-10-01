@@ -29,6 +29,9 @@ header {
 .menu-open{
   display: none;
 }
+.menu-close {
+  display: none;
+}
 .menu {
   display: flex;
   width: 50%;
@@ -251,6 +254,11 @@ body {
 }
 @media only screen and (min-device-width : 481px) and (max-device-width : 767px) {}
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
   .logo{
     width: 50%;
     margin-top: 8%;
@@ -258,6 +266,8 @@ body {
     border: solid green;
   }
   .menu-open{
+    display: block;
+  }.menu-close{
     display: block;
   }
   .menu{
@@ -268,7 +278,7 @@ body {
     right: 0;
     bottom: 0;
     padding: 1.5rem;
-    z-index: 6;
+    z-index: 101;
     text-align: end;
     background-color: #040404;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .6);
